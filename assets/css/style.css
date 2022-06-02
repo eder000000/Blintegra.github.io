@@ -144,12 +144,14 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-  color: #3498db;
+  color: #522E6D;
   text-decoration: none;
+  font-weight: bold;
+  text-shadow: #522E6D;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background: #522E6D;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -157,7 +159,7 @@ h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #57aae1;
+  background: #9578ac;
   color: #fff;
 }
 
@@ -694,7 +696,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #33CCCC;
+  color: #522E6D;
   float: left;
 }
 
@@ -1478,16 +1480,16 @@ poliza-img {
 .content-dark .container {
   background-color: #253C58;
   color: whitesmoke;
+  width: 100%;
 }
 
 .content-dark .content-dark-item {
-  margin: 20px 0;
+  margin: 20px;
   padding: 20px 0;
-
 }
 
 .content-dark .content-dark i {
-  color: #8bc4ea;
+
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1500,14 +1502,14 @@ poliza-img {
   line-height: 26px;
   font-weight: 500;
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 
 .content-dark .content-dark-item p {
-  font-size: 22px;
-  margin-top: 35px;
+  font-size: 20px;
+  margin-top: 20px;
   margin-bottom: 35px;
   text-align: center;
 }
@@ -2005,30 +2007,28 @@ poliza-img {
 --------------------------------------------------------------*/
 .requirements .box {
   padding: 20px;
-  background: #f9f9f9;
+  /*  background: #f9f9f9; */
   text-align: justify;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #f9f9f9;
   margin-bottom: 50px;
-  box-shadow: #d1d2d3 0px 0px 7px;
+  box-shadow: #424c55 0px 0px 7px;
 }
 
 .requirements .box h3 {
   font-weight: 400;
   padding: 15px;
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #253C58;
+  margin-top: 25px;
+  font-size: 22px;
+  color: #522E6D;
 }
 
-.requirements .box h4 {
+.requirements h4 {
   font-size: 22px;
   color: #111;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+
   margin-bottom: 20px;
 }
 
@@ -2047,7 +2047,7 @@ poliza-img {
 .requirements .box ul {
   padding: 0;
   list-style: none;
-  color: #253C58;
+  color: #522E6D;
   text-align: left;
   line-height: 20px;
   font-size: 14px;
@@ -2055,11 +2055,12 @@ poliza-img {
 
 .requirements .box ul li {
   padding-bottom: 16px;
+  padding-top: 16px;
 }
 
 .requirements .box ul i {
   color: #3498db;
-  font-size: 18px;
+  font-size: 15px;
   padding-right: 4px;
 }
 
@@ -2086,6 +2087,22 @@ poliza-img {
   transition: 0.3s;
 }
 
+.requirements span {
+  margin: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.requirements .bottom-bar {
+  border-bottom: 2px solid hsla(240, 8%, 85%, 0.582);
+}
+
+.requirements .bottom-bar-sub {
+  border-bottom: 1px solid hsla(240, 6%, 69%, 0.582);
+}
+
+
 .requirements .box .btn-buy:hover {
   background: #3498db;
   color: #fff;
@@ -2103,4 +2120,56 @@ poliza-img {
 .requirements .recommended .btn-buy:hover {
   background: #2383c4;
   border-color: #2383c4;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.requirements .requirements-item {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.requirements .requirements-item i {
+  color: #522E6D;
+  font-size: 24px;
+  float: left;
+  line-height: 0;
+  padding: 13px 0 0 0;
+  margin: 0;
+}
+
+.requirements span {
+  margin: 10px;
+  color: #522E6D;
+  font-size: large;
+  font-weight: bold;
+}
+
+.requirements .sub-list {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #9f9ca1;
+  font-size: large;
+}
+
+
+.requirements ul {
+  list-style: none;
+}
+
+.requirements .requirements-item h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 10px 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.requirements .requirements-item p {
+  font-size: 15px;
 }
