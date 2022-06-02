@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blintegr/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp poliza-juridica.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
