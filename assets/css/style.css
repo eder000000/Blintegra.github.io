@@ -298,8 +298,9 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-  color: #3498db;
+  color: #522E6D;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .mobile-nav .get-started {
@@ -308,7 +309,7 @@ h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #3498db;
+  background: #522E6D;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -317,7 +318,7 @@ h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #57aae1;
+  background: #9568b8;
   color: #fff;
 }
 
